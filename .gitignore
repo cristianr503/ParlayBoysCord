@@ -1,4 +1,10 @@
 /node_modules
 /.DS_STORE
 /.vscode
+<<<<<<< HEAD
 .env
+=======
+/dist
+.env
+map.json
+>>>>>>> master

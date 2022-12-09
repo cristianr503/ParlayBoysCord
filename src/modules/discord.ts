@@ -118,7 +118,11 @@ export const listen = async (): Promise<void> => {
             content: `${content} (${attachmentUrl})`,
             attachments,
             embeds,
+<<<<<<< HEAD
             username: `${username}`,
+=======
+            username: `${username}#${discriminator}`,
+>>>>>>> master
             url: webhookUrl,
             avatar: avatarUrl,
           }
